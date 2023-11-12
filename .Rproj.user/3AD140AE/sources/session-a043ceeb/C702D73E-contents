@@ -244,3 +244,52 @@ body, html {
 .project-card a:hover {
     background-color: #ddd;
 }
+
+
+
+
+
+
+
+
+
+
+
+.contact-container {
+    background-image: url('math2.jpg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px; /* Adjust as necessary */
+    color: #fff; /* Change color based on your background image */
+}
+
+.personal-message, .contact-details {
+    max-width: 600px; /* Adjust as necessary */
+    margin: auto;
+    text-align: center;
+}
+
+.contact-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-details li {
+    padding: 5px 0; /* Adjust as necessary */
+}
+
+.contact-details a {
+    color: #fff; /* Adjust to fit your design */
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .contact-container {
+        padding: 25px; /* Adjust as necessary for smaller screens */
+    }
+}

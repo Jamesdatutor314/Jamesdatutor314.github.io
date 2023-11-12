@@ -256,19 +256,33 @@ body, html {
 
 
 .contact-container {
-    background-image: url('math2.jpg'); /* Replace with your actual image */
+    background-image: url('math3.jpg'); /* Replace with your actual image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
     padding: 50px; /* Adjust as necessary */
-    color: #fff; /* Change color based on your background image */
+    box-sizing: border-box; /* Ensures padding is included in height calculation */
 }
 
-.personal-message, .contact-details {
-    max-width: 600px; /* Adjust as necessary */
-    margin: auto;
-    text-align: center;
+.contact-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Change the transparency as needed */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners for the box */
+    color: #fff; /* Text color */
+    max-width: 800px; /* Maximum width of the content box */
+    width: 100%; /* Full width of the container */
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
+    text-align: center; /* Center the text inside the box */
 }
+
+/* Update for personal message and contact details if needed */
+.personal-message, .contact-details {
+    margin: auto;
+    max-width: 600px; /* Adjust as necessary */
 
 .contact-details ul {
     list-style: none;

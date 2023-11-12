@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="styles.css">
     
     <!-- Google Font -->
@@ -20,23 +20,20 @@
                 <span class="highlight">Data Science</span>
             </h1>
             <ul class="nav">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about-me.html">About Me</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me.html" class="active">About Me</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact Me</a></li>
             </ul>
         </div>
     </header>
-    <div class="hero">
-        <img src="hero-photo.jpg" alt="Your Image" class="hero-image">
-        <div class="hero-text-container">
-            <h1></h1>
-            <p></p>
+    <div class="about-me-container">
+        <div class="about-me-content">
+            <h1><span class="highlight">Greetings and Salutaions! </span></h1>
+            <p>My name is James, and I hail from Connecticut. As an advocate for equal rights, I am  deeply committed to fostering inclusivity and fairness. Professionally, I work as a math consultant and educator. I hold a bachelor's degree in Applied Mathematics from Southern Connecticut State University and am currently pursuing a master's in Data Science at Southern Methodist University in Texas, with a focus on machine learning. My passions extend to music, exploring different cultures and languages, fashion, spreading joy through humor, and learning new things.</p>
+            <p>Feel free to explore my work by browsing through the tabs. 😄</p>
         </div>
     </div>
-    
-    <!-- Additional content goes here -->
-    
 </body>
 </html>

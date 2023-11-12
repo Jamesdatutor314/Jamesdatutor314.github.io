@@ -108,3 +108,92 @@ body, html {
         font-size: 1.2em;
     }
 }
+
+
+
+
+.about-me-container {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px); /* Adjusted for the height of the navbar */
+    background-image: url('math1.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-me-content {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay to the text for better readability */
+    border-radius: 10px; /* Optional: Rounds the corners of the overlay */
+    color: #fff;
+    /* Rest of your styles */
+}
+
+/* Ensure the background image covers the whole area after the navbar */
+@media (max-width: 600px) {
+    .about-me-container {
+        height: auto;
+        padding-bottom: 50px; /* Give some space at the bottom */
+    }
+
+    /* Adjustments for the content */
+    .about-me-content h1 {
+        font-size: 1.75rem;
+    }
+    .about-me-content p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+.about-me-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('math1.jpg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-content {
+    color: #fff; /* Adjust the color as needed */
+    text-align: center;
+    max-width: 800px; /* Set a max-width if you want to limit the content width */
+    margin: 0 auto;
+}
+
+.about-me-content h1 {
+    font-size: 2.5rem; /* Adjust the size as needed */
+    margin-bottom: 0.5em;
+}
+
+.about-me-content p {
+    font-size: 1.25rem; /* Adjust the size as needed */
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 600px) {
+    .about-me-content h1 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    .about-me-content p {
+        font-size: 1rem; /* Smaller font size for mobile */
+    }
+}
+

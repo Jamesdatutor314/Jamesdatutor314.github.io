@@ -5,19 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="navbar">
-        <!-- Navigation bar items -->
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <!-- Add other tabs if necessary -->
+    <header>
+        <div id="navbar">
+            <h1 class="logo">
+                <span class="highlight">James:</span> Tutor in 
+                <span class="highlight">Mathematics</span> & Wizard in 
+                <span class="highlight">Data Science</span>
+            </h1>
+            <ul class="nav">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="hero">
+        <img src="hero-photo.jpg" alt="Your Image" class="hero-image">
+        <div class="hero-text-container">
+            <h1></h1>
+            <p></p>
+        </div>
     </div>
-
-    <h1>Welcome to My Website!!!</h1>
-    <p>This is the home page of my personal website.</p>
     
-    <!-- Add more content if needed -->
+    <!-- Additional content goes here -->
     
 </body>
 </html>

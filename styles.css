@@ -1,24 +1,110 @@
-body {
+body, html {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 #navbar {
     background-color: #333;
     color: white;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
 }
 
-#navbar a {
+#navbar .logo {
+    flex: 1;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+}
+
+.highlight {
+    color: #b72000; /* Replace with the actual color of the tie */
+}
+
+#navbar .nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    justify-content: center;
+}
+
+#navbar .nav li {
+    padding: 0 20px;
+}
+
+#navbar .nav a {
     color: white;
-    padding: 14px 20px;
     text-decoration: none;
-    display: inline-block;
+    text-transform: uppercase;
 }
 
-#navbar a:hover {
-    background-color: #ddd;
-    color: black;
+#navbar .nav a:hover, #navbar .nav a.active {
+    color: #b72000; /* Replace with the actual color of the tie */
+    border-bottom: 2px solid #b72000; /* Replace with the actual color of the tie */
+}
+
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        height: 50vh;
+    }
+    
+    .hero-text-container {
+        width: 90%;
+        padding: 0 5%;
+    }
+
+    #navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #navbar .logo, 
+    #navbar .nav {
+        flex: none;
+    }
+
+    #navbar .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .nav li {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 1.2em;
+    }
 }

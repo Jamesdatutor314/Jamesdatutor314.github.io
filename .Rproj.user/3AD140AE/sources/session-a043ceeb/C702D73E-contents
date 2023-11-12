@@ -307,3 +307,61 @@ body, html {
         padding: 25px; /* Adjust as necessary for smaller screens */
     }
 }
+
+
+
+
+
+
+
+
+
+
+.services-background {
+    background-image: url('math4.jpg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+}
+
+.service-item {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service-text {
+    flex-basis: 70%; /* Adjust as needed */
+}
+
+.service-text h2 {
+    margin-top: 0;
+}
+
+.service-subtitle {
+    color: orange;
+}
+
+.service-image {
+    flex-basis: 30%; /* Adjust as needed */
+    /* Placeholder styles for the image */
+    width: 100px; /* Replace with actual image size */
+    height: 100px; /* Replace with actual image size */
+    background-color: #ddd; /* Placeholder color */
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .service-item {
+        flex-direction: column;
+    }
+    .service-image {
+        margin-top: 20px;
+    }
+}

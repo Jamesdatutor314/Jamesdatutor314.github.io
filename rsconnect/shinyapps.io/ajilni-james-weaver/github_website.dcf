@@ -1,0 +1,10 @@
+name: github_website
+title:
+username: ajilni-james-weaver
+account: ajilni-james-weaver
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10501517
+bundleId: 7919469
+url: https://ajilni-james-weaver.shinyapps.io/github_website/
+version: 1
